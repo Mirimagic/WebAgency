@@ -87,4 +87,12 @@ a
 	width: 100%;
 }
 
+#accueil aside
+{
+	position: relative;
+	top: 100px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
 /*<----------------Footer---------------->*/
