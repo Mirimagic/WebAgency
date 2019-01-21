@@ -35,13 +35,13 @@ body {
 	font-family: 'Roboto-Regular', Arial, Verdana, "Trebuchet MS", "Arial Black", sans-serif;
 	color: rgb(39, 39, 39);
 	font-size: 1.0em;
-	text-align: center;
 }
 
 #bloc_page
 {
-	width: 80%;
-	margin: auto;
+	margin: 0;
+	padding: 0;
+	background-color: aqua;
 }
 
 /*<----------------HEADER---------------->*/
@@ -53,6 +53,8 @@ body {
 	align-items: center; /*centrer verticalement*/
 	height: 100px;
 	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
 	position: fixed;
 	background-color: white;
 	top: 0px; 
@@ -77,17 +79,12 @@ a
 }
 
 /*<----------------Section Accueil---------------->*/
-#slider{
+#accueil img
+{
 	position: absolute;
-	left: -20%;
-	right: 20%;
-	display: flex;
+	left: 0px;
+	top: 100px;
+	width: 100%;
 }
-.text_slider{
-	position: absolute;
-	align-items: center;
-
-}
-
 
 /*<----------------Footer---------------->*/
