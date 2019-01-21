@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'FontAwsome';
+	src: url('fonts/fontawsome-webfont.eot') format('embedded-opentype'),
+		url('fonts/fontawsome-webfont.svg') format('svg'),
+		url('fonts/fontawsome-webfont.ttf') format('truetype'),
+		url('fonts/fontawsome-webfont.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'glyphicons';
+	src: url('fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'),
+		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
+		url('fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+		url('fonts/glyphicons-halflings-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url('fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Roboto-Black';
+	src: url('fonts/Roboto-Black.ttf') format('truetype');
+}
+
+/*<----------------BODY---------------->*/
+
+body {
+	font-family: 'Roboto-Regular', Arial, Verdana, "Trebuchet MS", "Arial Black", sans-serif;
+	color: rgb(39, 39, 39);
+	font-size: 1.0em;
+	text-align: center;
+}
+
+#bloc_page
+{
+	width: 80%;
+	margin: auto;
+}
+
+/*<----------------HEADER---------------->*/
+
+#titre_principal
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center; /*centrer verticalement*/
+	height: 100px;
+}
+
+/*<-Naviguation->*/
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    width: 75px;
+}
+
+a
+{
+   text-decoration: none;
+   color: rgba(39, 39, 39);
+}
+
+/*<----------------Section Accueil---------------->*/
+#slider{
+	position: absolute;
+	left: -20%;
+	right: 20%;
+	display: flex;
+}
+.text_slider{
+	position: absolute;
+	align-items: center;
+
+}
+
+
+/*<----------------Footer---------------->*/
