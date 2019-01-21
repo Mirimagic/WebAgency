@@ -52,6 +52,10 @@ body {
 	justify-content: space-between;
 	align-items: center; /*centrer verticalement*/
 	height: 100px;
+	width: 80%;
+	position: fixed;
+	background-color: white;
+	top: 0px; 
 }
 
 /*<-Naviguation->*/
@@ -69,7 +73,7 @@ nav li
 a
 {
    text-decoration: none;
-   color: rgba(39, 39, 39);
+   color: rgb(39, 39, 39);
 }
 
 /*<----------------Section Accueil---------------->*/
