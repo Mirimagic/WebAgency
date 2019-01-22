@@ -75,18 +75,16 @@ a
 /*<----------------Section Accueil---------------->*/
 #accueil img
 {
-	position: absolute;
+	display: block;
 	left: 0px;
-	top: 100px;
 	width: 100%;
+	height: auto;
 }
 
-#accueil aside
+#accueil div
 {
-	position: relative;
+	position: absolute;
 	top: 100px;
-	vertical-align: middle;
-	display: table-cell;
 }
 
 /*<----------------Footer---------------->*/
