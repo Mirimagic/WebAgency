@@ -29,6 +29,10 @@
 	src: url('fonts/Roboto-Black.ttf') format('truetype');
 }
 
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('fonts/Roboto-Medium.ttf') format('truetype');
+}
 /*<----------------BODY---------------->*/
 
 body {
@@ -47,7 +51,7 @@ h2
 {
 	font-family: 'Roboto-Black', "Arial black", Impact, Arial;
 	color: white;
-	font-size: 2em;
+	font-size: 2.2em;
 	text-transform: uppercase;
 	margin-bottom: -5px;
 }
@@ -61,6 +65,20 @@ h2
 #bleu
 {
 	color: rgb(92, 173, 211);
+}
+
+.bouton
+{
+	display: block;
+	width: 125px;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgb(92, 173, 211);
+	color: white;
+	border-bottom: 3px solid rgb(70, 140, 173);
+	border-radius: 4px;
+	font-family: 'Roboto-Medium', "Arial black", Impact, Arial;
+	font-size: 1.2em;
 }
 
 /*<----------------HEADER---------------->*/
@@ -109,7 +127,7 @@ a
 {
 	position: absolute;
 	top: 30%;
-	left: 10%;
+	left: 11%;
 	max-width: 40%;
 }
 /*<----------------Footer---------------->*/
