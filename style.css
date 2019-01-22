@@ -35,12 +35,6 @@ body {
 	font-family: 'Roboto-Regular', Arial, Verdana, "Trebuchet MS", "Arial Black", sans-serif;
 	color: rgb(39, 39, 39);
 	font-size: 1.0em;
-}
-
-#bloc_page
-{
-	margin: 0;
-	padding: 0;
 	background-color: aqua;
 }
 
