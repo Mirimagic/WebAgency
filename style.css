@@ -82,6 +82,12 @@ p
 	position: fixed;
 	background-color: white;
 	top: 0px; 
+	left: 0px;
+}
+
+header
+{
+	height: 92px;
 }
 
 /*<-Navigation->*/
@@ -127,7 +133,6 @@ h2
 #accueil img
 {
 	display: block;
-	margin-top: 100px;
 	width: 100%;
 }
 
@@ -135,7 +140,7 @@ h2
 {
 	position: absolute;
 	top: 20%;
-	left: 11%;
+	left: 10%;
 	max-width: 40%;
 }
 /*<----------------Footer---------------->*/
