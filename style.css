@@ -1,12 +1,4 @@
 @font-face {
-	font-family: 'FontAwsome';
-	src: url('fonts/fontawsome-webfont.eot') format('embedded-opentype'),
-		url('fonts/fontawsome-webfont.svg') format('svg'),
-		url('fonts/fontawsome-webfont.ttf') format('truetype'),
-		url('fonts/fontawsome-webfont.woff') format('woff');
-}
-
-@font-face {
 	font-family: 'glyphicons';
 	src: url('fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'),
 		url('fonts/glyphicons-halflings-regular.svg') format('svg'),
@@ -44,9 +36,11 @@ body {
 h1
 {
 	text-align: center;
-	font-family: 'Roboto-Bold', "Arial black", Impact, Arial;
+	font-family: 'Roboto-Medium', "Arial black", Impact, Arial;
 	font-size: 2.5em;
 	margin-bottom: 15px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
 }
 
 p
@@ -68,25 +62,31 @@ p
 	font-size: 1.2em;
 }
 
-hr {
+/*<----SEPARATEUR---->*/
+.separateur
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.trait 
+{
     border: none;
-	border-top: 1px solid rgb(200, 200, 200);
+	border-top: 1px solid rgb(218, 218, 218);
     overflow: visible;
 	text-align: center;
-	width: 200px;
+	width: 50px;
 }
 
-hr:after {
-    background: rgb(92, 173, 211);
-	content: '';
+.point
+{
+	background-color: rgb(92, 173, 211);
 	border-radius: 100%;
-	border: 2px solid white;
-    position: relative;
-	top: -11px;
-	padding-left: 8px;
-	padding-right: 10px;
+	width: 12px;
+	height: 12px;
+	border: 4px solid white;
 }
-
 /*<----------------HEADER---------------->*/
 
 #titre_principal
@@ -135,6 +135,7 @@ h2
 	font-size: 2.2em;
 	text-transform: uppercase;
 	margin-bottom: -5px;
+	margin-top: -37px;
 }
 
 #bleu
@@ -149,19 +150,24 @@ h2
 	text-align: left;
 }
 
-#accueil img
+#accueil
 {
-	display: block;
-	width: 102%;
-	margin-left: -8px
+	background: url(images/slider/bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 550px;
+	margin-left: -8px;
+	margin-right: -8px;
 }
 
 #accueil div
 {
-	position: absolute;
-	top: 20%;
-	left: 10%;
-	max-width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 50%;
+	height: 550px;
+	padding-left: 11%;
 }
 
 /*<----------------Section Services---------------->*/
