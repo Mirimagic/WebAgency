@@ -231,13 +231,13 @@ h2
 
 #Mac
 {
-	padding-left: 10%;
+	width: 50%;
 }
 
 #liste-metiers
 {
-	margin-right: 10%;
-	margin-top: 35px;
+	width: 50%;
+	padding-top: 35px;
 }
 
 .metier
