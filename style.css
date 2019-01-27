@@ -117,18 +117,19 @@ header
 }
 
 /*<-Navigation->*/
-nav ul
+.navigation ul
 {
     list-style-type: none;
     display: flex;
 }
 
-nav li
+.navigation li
 {
-    width: 75px;
+	width: 75px;
+	text-align: center;
 }
 
-a
+.navigation a
 {
    text-decoration: none;
    color: rgb(39, 39, 39);
@@ -232,12 +233,14 @@ h2
 #Mac
 {
 	width: 50%;
+	margin-left: 10%;
 }
 
 #liste-metiers
 {
 	width: 50%;
 	padding-top: 35px;
+	margin-right: 10%;
 }
 
 .metier
@@ -280,4 +283,49 @@ h4
 	border: 4px solid white;
 	margin-left: -11px;
 }
+
+/*<----------------Section Projet---------------->*/
+
+#projets
+{
+	background-color: rgb(245, 245, 245);
+	background-size: cover;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+/*<-Travaux->*/
+.travaux
+{
+	display: flex;
+	justify-content: center;
+}
+
+.travaux ul
+{
+    list-style-type: none;
+	display: flex;
+	background-color: rgb(229, 229, 229);
+	border-radius: 4px;
+	padding: 0px;
+	height: 50px;
+}
+
+.travaux li
+{
+	display: flex;
+	align-items: center;
+	width: 100px;
+	justify-content: center;
+}
+
+.travaux a
+{
+   text-decoration: none;
+   color: rgb(39, 39, 39);
+   font-family: 'Roboto-Medium', "Arial black", Impact, Arial;
+}
+
 /*<----------------Footer---------------->*/
