@@ -398,6 +398,67 @@ h4
 	margin: 10px;
 }
 
+.affichage
+{
+	display: flex;
+	position: relative;
+	align-items: flex-end;
+	
+}
+
+.descriptif
+{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 280px;
+	margin-left: 10px;
+	margin-top: -10px;
+	padding: 10px;
+	opacity: 0;
+}
+
+h5
+{
+	font-family: 'Roboto-Black', "Arial black", Impact, Arial;
+	color: white;
+	font-size: 1.2em;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+.descriptif p
+{
+	font-family: 'Roboto-Medium', "Arial black", Impact, Arial;
+	color: white;
+	margin-top: 0px;
+	line-height: 1.7;
+	margin-bottom: 0px;
+}
+
+.voir
+{
+	display: flex;
+	background-color: rgb(92, 173, 211);
+	border-radius: 100%;
+	border: 2px solid white;
+	width: 40px;
+	height: 40px;
+	color: white;
+	font-size: 1em;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	margin-left: 230px;
+	margin-top: -32px;
+}
+
+.descriptif:hover
+{
+	opacity: 1;
+}
+
 /*<----------------Section contact---------------->*/
 
 #contact
