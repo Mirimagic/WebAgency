@@ -117,6 +117,7 @@ p
 	background-color: white;
 	top: 0px; 
 	left: 0px;
+	z-index: 10; /*Permet de passer par dessu les autres éléments*/
 }
 
 header
