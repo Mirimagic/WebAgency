@@ -367,7 +367,8 @@ h4
 	border-bottom: 3px solid rgb(70, 140, 173);
 }
 
-.selection-all-work::after{
+.selection-all-work::after
+{
 	content: "";
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
@@ -516,6 +517,7 @@ h3
 	border: 1px solid rgb(200, 200, 200);
 	font-family: 'Roboto-Regular', Arial, Verdana, "Trebuchet MS", "Arial Black", sans-serif;
 	font-size: 1em;
+	width: 382px;
 }
 
 textarea
@@ -601,7 +603,15 @@ textarea
 
 	#Mac
 	{
+		display: flex;
 		margin-left: 25%;
+		margin-right: 25%;
+		align-items: center
+	}
+	
+	#Mac img
+	{
+		width: 100%;
 	}
 
 	#liste-metiers
@@ -617,20 +627,9 @@ textarea
 
 	/*<-Portfolio->*/
 
-	#portfolio img
+	#portfolio
 	{
-		width: 350px;
-		height: 234px;
-	}
-
-	.descriptif
-	{
-		width: 330px;
-	}
-
-	.voir
-	{
-		margin-left: 275px;
+		justify-content: space-around
 	}
 
 	/*<----------------Section contact---------------->*/
@@ -641,3 +640,217 @@ textarea
 	}
 }
 
+/*<----------------Résolution inférieur à 1024px---------------->*/
+
+@media all and (max-device-width: 480px)
+{
+	/*<----------------BODY---------------->*/
+
+	body
+	{
+		font-size: 0.8em;
+	}
+
+	p
+	{
+		line-height: 1.8;
+	}
+
+	h1
+	{
+		font-size: 3.5em;
+	}
+
+	.bouton
+	{
+		width: 175px;
+		line-height: 60px;
+		font-size: 1.8em;
+		border-bottom: 6px solid rgb(70, 140, 173);
+		border-radius: 7px;
+	}
+
+	/*<----Separateur---->*/
+
+	.trait
+	{
+		width: 80px;
+	}
+
+	.point
+	{
+		width: 15px;
+		height: 15px;
+	}
+
+	/*<----------------HEADER---------------->*/
+
+	/*<-Navigation->*/
+
+	/*<----------------Section Accueil---------------->*/
+
+	h2
+	{
+		font-size: 3.5em;
+		margin-top: 0px;
+	}
+
+	#sous-titre
+	{
+		font-size: 2em;
+		max-width: 95%;
+	}
+
+	#accueil div
+	{
+		max-width: 55%;
+	}
+
+	/*<-fleches->*/
+
+	/*<----------------Section Services---------------->*/
+
+	h4
+	{
+		font-size: 2.75em;
+		margin-top: 0px;
+	}
+
+	.explicatif p
+	{
+		font-size: 1.55em;
+		margin-top: 10px
+	}
+	
+	#services .fas
+	{
+		font-size: 2.75em;
+		height: 90px;
+		min-width: 90px;
+	}
+
+	.point-services
+	{
+		min-width: 15px;
+		height: 15px;
+	}
+
+	#liste-metiers
+	{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	/*<----------------Section Projet---------------->*/
+
+	/*<-Travaux->*/
+
+	.travaux ul  
+	{
+		height: 75px;
+	}
+
+	.travaux li
+	{
+		width: 175px;
+	}
+	
+	.travaux a
+	{
+		font-size: 2.25em;
+	}
+
+	.selection-all-work::after
+	{
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		border-top: 15px solid rgb(70, 140, 173);
+		margin-top: 45px;
+	}
+
+	/*<-Portfolio->*/
+
+	h5
+	{
+		font-size: 2.25em;
+		max-width: 85%;
+	}
+
+	.descriptif p
+	{
+		font-size: 2em;
+		line-height: 1.25;
+	}
+
+	.voir
+	{
+		width: 45px;
+		height: 45px;
+		font-size: 1.75em;
+	}
+
+	/*<----------------Section contact---------------->*/
+
+	#contact
+	{
+		display: flex;
+		align-items: baseline;
+		flex-direction: column-reverse;
+	}
+
+	iframe
+	{
+		width: 100%;
+		height: 400px;
+		border: 0;
+	}
+
+	aside
+	{
+		position: relative;
+		background: white;
+		left: 0;
+		padding: 25px 0px 25px 0px;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: 80%;
+	}
+
+	h3
+	{
+		font-size: 3.5em;
+	}
+
+	#contact p
+	{
+		font-size: 2.25em;
+	}
+
+	#formulaire
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+		width: 100%;
+		height: 50px;
+		font-size: 0.9em;
+	}
+	
+	textarea
+	{
+		margin-top: 12px;
+		margin-bottom: 12px;
+		font-size: 0.9em;
+		width: 100%;
+		max-width: 100%;
+		min-width: 100%;
+	}
+	
+	#envoyer
+	{
+		width: 225px;
+		line-height: 75px;
+		border-bottom: 6px solid rgb(70, 140, 173);
+		border-radius: 7px;
+	}
+}
