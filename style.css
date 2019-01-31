@@ -549,3 +549,95 @@ textarea
 	font-size: 1em;
 	text-decoration: none;
 }
+
+/*<----------------Résolution inférieur à 1024px---------------->*/
+
+@media all and (max-width: 1024px)
+{
+	/*<----------------BODY---------------->*/
+
+	.chapeau
+	{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	/*<----Separateur---->*/
+
+	/*<----------------HEADER---------------->*/
+
+	/*<-Navigation->*/
+
+	/*<----------------Section Accueil---------------->*/
+
+	#accueil
+	{
+		height: 400px;
+	}
+
+	#accueil div
+	{
+		height: 400px;
+	}
+
+	/*<-fleches->*/
+
+	.fleche-gauche
+	{
+		top: 245px;
+	}
+
+	.fleche-droite
+	{
+		top: 245px;
+	}
+
+	/*<----------------Section Services---------------->*/
+
+	#contenu-service
+	{
+		flex-direction: column;
+	}
+
+	#Mac
+	{
+		margin-left: 25%;
+	}
+
+	#liste-metiers
+	{
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+
+	/*<----------------Section Projet---------------->*/
+
+	/*<-Travaux->*/
+
+	/*<-Portfolio->*/
+
+	#portfolio img
+	{
+		width: 350px;
+		height: 234px;
+	}
+
+	.descriptif
+	{
+		width: 330px;
+	}
+
+	.voir
+	{
+		margin-left: 275px;
+	}
+
+	/*<----------------Section contact---------------->*/
+
+	aside
+	{
+		left: 53%;
+	}
+}
+
