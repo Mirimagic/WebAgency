@@ -363,7 +363,7 @@ h4
 
 .selection-all-work
 {
-	background-color: rgb(92, 173, 211);
+	background-color: rgb(90, 172, 210);
 	border-radius: 4px 0px 0px 4px;
 	border-bottom: 3px solid rgb(70, 140, 173);
 }
@@ -518,7 +518,7 @@ h3
 	text-decoration: underline;
 }
 
-#formulaire
+.formulaire
 {
 	padding: 8px;
 	margin-top: 7px;
@@ -856,7 +856,7 @@ textarea
 		font-size: 2.25em;
 	}
 
-	#formulaire
+	.formulaire
 	{
 		margin-top: 12px;
 		margin-bottom: 12px;
