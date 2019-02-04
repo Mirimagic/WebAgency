@@ -192,8 +192,6 @@ h2
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 550px;
-	margin-left: -8px;
-	margin-right: -8px;
 }
 
 #accueil div
@@ -221,12 +219,11 @@ h2
 	display: flex;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.25);
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
+	width: 2.5rem;
+	height: 5rem;
+	border-radius: 0 2.5rem 2.5rem 0;
 	justify-content: center;
 	align-items: center; 
-	left: -40px;
 	top: 315px;
 }
 
@@ -234,7 +231,7 @@ h2
 {
 	color: white;
 	font-size: 2.5em;
-	margin-left: 30px;
+	margin-left: -6px;
 }
 
 .fleche-droite
@@ -242,20 +239,20 @@ h2
 	display: flex;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.25);
-	width: 80px;
-	height: 80px;
-	border-radius: 100%;
+	width: 2.5rem;
+	height: 5rem;
+	border-radius: 2.5rem 0 0 2.5rem;
 	justify-content: center;
 	align-items: center; 
-	right: -40px;
 	top: 315px;
+	right: 0%
 }
 
 .fa-angle-right
 {
 	color: white;
 	font-size: 2.5em;
-	margin-right: 30px;
+	margin-right: -6px;
 }
 
 /*<----------------Section Services---------------->*/
