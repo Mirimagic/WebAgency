@@ -322,8 +322,6 @@ h4
 {
 	background-color: rgb(245, 245, 245);
 	background-size: cover;
-	margin-left: -8px;
-	margin-right: -8px;
 	padding-top: 1px;
 	padding-bottom: 20px;
 }
@@ -456,7 +454,7 @@ h5
 	margin-top: -32px;
 }
 
-.descriptif:hover
+.affichage:hover .descriptif
 {
 	opacity: 1;
 }
