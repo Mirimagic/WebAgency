@@ -226,12 +226,12 @@ h2
 	top: 315px;
 }
 
-.fleche + .gauche
+.fleche.gauche
 {
     border-radius: 0 2.5rem 2.5rem 0;
 }
 
-.fleche + .droite
+.fleche.droite
 {
     border-radius: 2.5rem 0 0 2.5rem;
     right: 0;
