@@ -214,7 +214,7 @@ h2
 
 /*<-fleches->*/
 
-.fleche-gauche
+.fleche
 {
 	display: flex;
 	position: absolute;
@@ -227,25 +227,16 @@ h2
 	top: 315px;
 }
 
+.fleche .droite
+{
+    right: 0;
+}
+
 .fa-angle-left
 {
 	color: white;
 	font-size: 2.5em;
 	margin-left: -6px;
-}
-
-.fleche-droite
-{
-	display: flex;
-	position: absolute;
-	background-color: rgba(0, 0, 0, 0.25);
-	width: 2.5rem;
-	height: 5rem;
-	border-radius: 2.5rem 0 0 2.5rem;
-	justify-content: center;
-	align-items: center; 
-	top: 315px;
-	right: 0%
 }
 
 .fa-angle-right
