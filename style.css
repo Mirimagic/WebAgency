@@ -84,7 +84,7 @@ p
 	align-items: center;
 }
 
-.trait 
+.trait
 {
     border: none;
 	border-top: 1px solid rgb(218, 218, 218);
@@ -114,7 +114,7 @@ p
 	padding-right: 10%;
 	position: fixed;
 	background-color: white;
-	top: 0px; 
+	top: 0px;
 	left: 0px;
 	z-index: 10; /*Permet de passer par dessu les autres éléments*/
 }
@@ -221,14 +221,19 @@ h2
 	background-color: rgba(0, 0, 0, 0.25);
 	width: 2.5rem;
 	height: 5rem;
-	border-radius: 0 2.5rem 2.5rem 0;
 	justify-content: center;
-	align-items: center; 
+	align-items: center;
 	top: 315px;
 }
 
-.fleche .droite
+.fleche + .gauche
 {
+    border-radius: 0 2.5rem 2.5rem 0;
+}
+
+.fleche + .droite
+{
+    border-radius: 2.5rem 0 0 2.5rem;
     right: 0;
 }
 
@@ -325,7 +330,7 @@ h4
 	padding-bottom: 20px;
 }
 
-.travaux ul  
+.travaux ul
 {
     list-style-type: none;
 	display: flex;
@@ -394,7 +399,7 @@ h4
 	display: flex;
 	position: relative;
 	align-items: flex-end;
-	
+
 }
 
 .descriptif
@@ -584,12 +589,7 @@ textarea
 
 	/*<-fleches->*/
 
-	.fleche-gauche
-	{
-		top: 245px;
-	}
-
-	.fleche-droite
+	.fleche
 	{
 		top: 245px;
 	}
@@ -608,7 +608,7 @@ textarea
 		margin-right: 25%;
 		align-items: center
 	}
-	
+
 	#Mac img
 	{
 		width: 100%;
@@ -736,7 +736,7 @@ textarea
 		font-size: 1.55em;
 		margin-top: 10px
 	}
-	
+
 	#services .fas
 	{
 		font-size: 2.75em;
@@ -761,7 +761,7 @@ textarea
 
 	/*<-Travaux->*/
 
-	.travaux ul  
+	.travaux ul
 	{
 		height: 75px;
 	}
@@ -770,7 +770,7 @@ textarea
 	{
 		width: 175px;
 	}
-	
+
 	.travaux a
 	{
 		font-size: 2.25em;
@@ -854,7 +854,7 @@ textarea
 		height: 50px;
 		font-size: 2em;
 	}
-	
+
 	textarea
 	{
 		margin-top: 12px;
@@ -864,7 +864,7 @@ textarea
 		max-width: 100%;
 		min-width: 100%;
 	}
-	
+
 	#envoyer
 	{
 		width: 225px;
