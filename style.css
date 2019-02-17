@@ -787,17 +787,36 @@ textarea
 		max-width: 85%;
 	}
 
+	#portfolio img
+	{
+		width: 600px;
+		height: 400px;
+	}
+
+	.descriptif
+	{
+		width: 580px;
+	}
+
+	h4
+	{
+		font-size: 3.25em;
+		margin-bottom: 7px;
+	}
+
 	.descriptif p
 	{
-		font-size: 2em;
-		line-height: 1.25;
+		font-size: 2.5em;
+		line-height: 1.5;
 	}
 
 	.voir
 	{
-		width: 45px;
-		height: 45px;
-		font-size: 1.75em;
+		width: 75px;
+		height: 75px;
+		font-size: 2.25em;
+		margin-left: 480px;
+		margin-top: -48px;
 	}
 
 	/*<----------------Section contact---------------->*/
