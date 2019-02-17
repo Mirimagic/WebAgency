@@ -34,7 +34,7 @@ body {
 	margin: 0px;
 }
 
-h1
+h2
 {
 	text-align: center;
 	font-family: 'Roboto-Medium', "Arial black", Impact, Arial;
@@ -163,7 +163,7 @@ header
 
 /*<----------------Section Accueil---------------->*/
 
-h2
+h1
 {
 	font-family: 'Roboto-Black', "Arial black", Impact, Arial;
 	color: white;
@@ -282,7 +282,7 @@ h2
  	margin-left: 20px;
 }
 
-h4
+h3
 {
 	font-family: 'Roboto-Black', "Arial black", Impact, Arial;
 	margin-bottom: -5px;
@@ -415,7 +415,7 @@ h4
 	opacity: 0;
 }
 
-h5
+h4
 {
 	font-family: 'Roboto-Black', "Arial black", Impact, Arial;
 	color: white;
@@ -488,7 +488,7 @@ aside
 	width: 398px;
 }
 
-h3
+h5
 {
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -656,7 +656,7 @@ textarea
 		line-height: 1.8;
 	}
 
-	h1
+	h2
 	{
 		font-size: 3.5em;
 	}
@@ -702,7 +702,7 @@ textarea
 
 	/*<----------------Section Accueil---------------->*/
 
-	h2
+	h1
 	{
 		font-size: 3.25em;
 		margin-top: 0px;
@@ -725,7 +725,7 @@ textarea
 
 	/*<----------------Section Services---------------->*/
 
-	h4
+	h3
 	{
 		font-size: 2.75em;
 		margin-top: 0px;
@@ -836,7 +836,7 @@ textarea
 		width: 80%;
 	}
 
-	h3
+	h5
 	{
 		font-size: 3.5em;
 	}
