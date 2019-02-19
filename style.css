@@ -631,7 +631,8 @@ textarea
 
 	aside
 	{
-		left: 0;
+		left: 50%;
+		transform: translate(-50%); /*Permet de centrer horizontalement*/
 	}
 }
 
