@@ -647,14 +647,6 @@ textarea
 		line-height: 1.8;
 	}
 
-	h2
-	{
-	}
-
-	.bouton
-	{
-	}
-
 	/*<----Separateur---->*/
 
 	.trait
@@ -759,10 +751,6 @@ textarea
 		margin-top: 10px
 	}
 
-	#services .fas
-	{
-	}
-
 	.point-services
 	{
 		min-width: 15px;
@@ -780,22 +768,10 @@ textarea
 
 	/*<-Travaux->*/
 
-	.travaux ul
-	{
-	}
-
 	.travaux li
 	{
 		width: 75px;
 		font-size: 0.9em;
-	}
-
-	.travaux a
-	{
-	}
-
-	.selection-all-work::after
-	{
 	}
 
 	/*<-Portfolio->*/
@@ -803,15 +779,6 @@ textarea
 	h5
 	{
 		max-width: 85%;
-	}
-
-	#portfolio img
-	{
-
-	}
-
-	.descriptif
-	{
 	}
 
 	h4
@@ -822,11 +789,6 @@ textarea
 	.descriptif p
 	{
 		line-height: 1.5;
-	}
-
-	.voir
-	{
-
 	}
 
 	/*<----------------Section contact---------------->*/
@@ -857,14 +819,6 @@ textarea
 		margin-left: 10%;
 		margin-right: 10%;
 		width: 80%;
-	}
-
-	h5
-	{
-	}
-
-	#contact p
-	{
 	}
 
 	.formulaire
