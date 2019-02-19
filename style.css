@@ -601,7 +601,7 @@ textarea
 		display: flex;
 		margin-left: 25%;
 		margin-right: 25%;
-		align-items: center
+		align-items: center;
 	}
 
 	#Mac img
@@ -631,7 +631,7 @@ textarea
 
 	aside
 	{
-		left: 53%;
+		left: 0;
 	}
 }
 
@@ -641,11 +641,6 @@ textarea
 {
 	/*<----------------BODY---------------->*/
 
-	body
-	{
-		font-size: 0.9em;
-	}
-
 	p
 	{
 		line-height: 1.8;
@@ -653,16 +648,10 @@ textarea
 
 	h2
 	{
-		font-size: 3.5em;
 	}
 
 	.bouton
 	{
-		width: 175px;
-		line-height: 60px;
-		font-size: 2em;
-		border-bottom: 6px solid rgb(70, 140, 173);
-		border-radius: 7px;
 	}
 
 	/*<----Separateur---->*/
@@ -680,6 +669,22 @@ textarea
 
 	/*<----------------HEADER---------------->*/
 
+	header img
+	{
+		width: 150px;
+	}
+
+	header
+	{
+		height: 65px;
+	}
+
+	#titre_principal
+	{
+		height: 65px;
+	}
+
+
 	/*<-Navigation->*/
 
 	.navigation
@@ -690,53 +695,71 @@ textarea
 	#nav-mobile
 	{
 		visibility: visible;
-		font-size: 3em;
-		margin-left: 65%;
+		margin-left: 40%;
 		color: rgb(175, 175, 175);
+		font-size: 1.25em;
 	}
 
 	/*<----------------Section Accueil---------------->*/
 
 	h1
 	{
-		font-size: 3.25em;
 		margin-top: 0px;
+		color: rgb(78, 78, 78);
 	}
 
 	#sous-titre
 	{
-		font-size: 2em;
 		margin-top: 10px;
 		line-height: 1.5;
 		max-width: 80%;
+		color: rgb(78, 78, 78);
+	}
+
+	#accueil
+	{
+		height: 390px;
+		background-size: 90%;
+		background-position-x: center;
+		background-position-y: top; 
 	}
 
 	#accueil div
 	{
-		max-width: 60%;
+		max-width: 100%;
+		padding-left: 6%;
+		padding-right: 6%;
+		padding-top: 33%;
+		height: 250px;
+		justify-content: end;
+	}
+
+	#trait-bleu
+	{
+		visibility: hidden;
 	}
 
 	/*<-fleches->*/
+
+	.fleche
+	{
+		visibility: hidden;
+	}
 
 	/*<----------------Section Services---------------->*/
 
 	h3
 	{
-		font-size: 2.75em;
 		margin-top: 0px;
 	}
 
 	.explicatif p
 	{
-		font-size: 1.55em;
 		margin-top: 10px
 	}
 
 	#services .fas
 	{
-		font-size: 2.75em;
-		height: 90px;
-		min-width: 90px;
 	}
 
 	.point-services
@@ -758,65 +781,51 @@ textarea
 
 	.travaux ul
 	{
-		height: 85px;
 	}
 
 	.travaux li
 	{
-		width: 200px;
+		width: 75px;
+		font-size: 0.9em;
 	}
 
 	.travaux a
 	{
-		font-size: 2.5em;
 	}
 
 	.selection-all-work::after
 	{
-		border-left: 15px solid transparent;
-		border-right: 15px solid transparent;
-		border-top: 15px solid rgb(70, 140, 173);
-		margin-top: 49px;
 	}
 
 	/*<-Portfolio->*/
 
 	h5
 	{
-		font-size: 2.25em;
 		max-width: 85%;
 	}
 
 	#portfolio img
 	{
-		width: 600px;
-		height: 400px;
+
 	}
 
 	.descriptif
 	{
-		width: 580px;
 	}
 
 	h4
 	{
-		font-size: 3.25em;
 		margin-bottom: 7px;
 	}
 
 	.descriptif p
 	{
-		font-size: 2.5em;
 		line-height: 1.5;
 	}
 
 	.voir
 	{
-		width: 75px;
-		height: 75px;
-		font-size: 2.25em;
-		margin-left: 480px;
-		margin-top: -48px;
+
 	}
 
 	/*<----------------Section contact---------------->*/
@@ -851,39 +860,26 @@ textarea
 
 	h5
 	{
-		font-size: 3.5em;
 	}
 
 	#contact p
 	{
-		font-size: 2.25em;
 	}
 
 	.formulaire
 	{
-		margin-top: 12px;
-		margin-bottom: 12px;
-		width: 100%;
-		height: 50px;
-		font-size: 2em;
+		width: 93%;
 	}
 
 	textarea
 	{
-		margin-top: 12px;
-		margin-bottom: 12px;
-		font-size: 2em;
-		width: 100%;
-		max-width: 100%;
-		min-width: 100%;
+		width: 93%;
+		max-width: 93%;
+		min-width: 93%;
 	}
 
 	#envoyer
 	{
-		width: 225px;
-		line-height: 75px;
-		border-bottom: 6px solid rgb(70, 140, 173);
-		border-radius: 7px;
-		font-size: 2em
+		line-height: 40px;
 	}
 }
